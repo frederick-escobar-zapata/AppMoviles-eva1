@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# 📱 Aplicación de Login - React Native con TypeScript
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Esta es una aplicación de login desarrollada con **React Native**, **Expo** y **TypeScript** que implementa autenticación básica y navegación por tabs.
 
-## Get started
+## 🚀 Características
 
-1. Install dependencies
+- ✅ **Pantalla de Login** con validación de credenciales
+- ✅ **Navegación con Expo Router** 
+- ✅ **TypeScript** para tipado estático
+- ✅ **Manejo de estado** con React Context
+- ✅ **Tabs de navegación** (Home y Perfil)
+- ✅ **Funciona en web y móvil**
 
+## 🔐 Credenciales de Acceso
+
+- **Email:** Cualquier email válido
+- **Contraseña:** `1234`
+
+## 📁 Estructura del Proyecto
+
+```
+app/
+├── _layout.tsx          # Layout principal
+├── index.tsx            # Pantalla de Login
+└── (tabs)/              # Grupo de tabs
+    ├── _layout.tsx      # Layout de tabs
+    ├── home.tsx         # Pantalla principal
+    └── profile.tsx      # Pantalla de perfil
+contexts/
+└── UserContext.tsx      # Context para manejo de estado
+```
+
+## 🛠️ Instalación y Ejecución
+
+1. **Instalar dependencias:**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. **Iniciar el servidor de desarrollo:**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Abrir la aplicación:**
+   - Escanea el código QR con Expo Go (móvil)
+   - Presiona `w` para abrir en navegador web
+   - Presiona `a` para abrir en emulador Android
+   - Presiona `i` para abrir en simulador iOS
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Funcionalidades
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Login
+- Validación de email (requerido)
+- Validación de contraseña (debe ser "1234")
+- Mensajes de error visuales
+- Navegación automática después del login exitoso
 
-## Get a fresh project
+### Navegación
+- **Tab Home:** Pantalla de bienvenida
+- **Tab Perfil:** Muestra el email del usuario logueado
 
-When you're ready, run:
+### Estado Global
+- Utiliza React Context para compartir datos del usuario
+- Manejo de estado con `useState` y `useContext`
 
-```bash
-npm run reset-project
-```
+## 🎥 Demo de la Aplicación
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**[Enlace al video demostrativo](https://youtu.be/TU_ENLACE_AQUI)**
 
-## Learn more
+*Próximamente: Video mostrando el funcionamiento completo de la aplicación*
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🧰 Tecnologías Utilizadas
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **React Native** - Framework de desarrollo móvil
+- **Expo** - Plataforma de desarrollo
+- **TypeScript** - Tipado estático
+- **Expo Router** - Navegación file-based
+- **React Context** - Manejo de estado global
 
-## Join the community
+## 👨‍💻 Desarrollado por
 
-Join our community of developers creating universal apps.
+**Frederick Escobar**
+- Evaluación 1 - Desarrollo de Aplicaciones Móviles
+- 3er Trimestre 2025
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+*Proyecto académico desarrollado con fines educativos*
