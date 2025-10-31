@@ -13,8 +13,8 @@ Esta es una aplicación de login desarrollada con **React Native**, **Expo** y *
 
 ## 🔐 Credenciales de Acceso
 
-- **Email:** Cualquier email válido
-- **Contraseña:** `1234`
+- **Email:** Cualquier email esto no esta válidado
+- **Contraseña:** `1234` solo con esta contraseña
 
 ## 📁 Estructura del Proyecto
 
@@ -51,13 +51,14 @@ contexts/
 ## 📱 Funcionalidades
 
 ### Login
-- Validación de email (requerido)
+- Validación de email (NO requerido)
 - Validación de contraseña (debe ser "1234")
 - Mensajes de error visuales
 - Navegación automática después del login exitoso
+- Manejo de estados entre vistas
 
 ### Navegación
-- **Tab Home:** Pantalla de bienvenida
+- **Tab Home:** Pantalla de bienvenida,  con usuario logueado
 - **Tab Perfil:** Muestra el email del usuario logueado
 
 ### Estado Global
@@ -66,9 +67,16 @@ contexts/
 
 ## 🎥 Demo de la Aplicación
 
-**[Enlace al video demostrativo](https://youtu.be/TU_ENLACE_AQUI)**
+**[📺 Ver demostración en navegador](https://youtu.be/l9SIKcMTq68)**
+**[📺 Ver demostración en telefono](https://youtube.com/shorts/-A1yolJuOPI)**
 
-*Próximamente: Video mostrando el funcionamiento completo de la aplicación*
+*Demostración de la aplicación de login funcionando en el navegador*
+
+## 📦 Repositorio
+
+**[🔗 Repositorio GitHub](https://github.com/frederick-escobar-zapata/AppMoviles-eva1)**
+
+*Código fuente completo del proyecto*
 
 ## 🧰 Tecnologías Utilizadas
 
