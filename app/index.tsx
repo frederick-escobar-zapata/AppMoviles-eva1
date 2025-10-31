@@ -1,15 +1,14 @@
 import { router } from 'expo-router';
 import React, { useState } from 'react';
 import {
-        SafeAreaView,
-        StyleSheet,
-        Text,
-        TextInput,
-        TouchableOpacity,
-        View,
+  StyleSheet,
+  Text,
+  TextInput,
+  View
 } from 'react-native';
-import { useUser } from '../contexts/UserContext';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import CustomButton from '../components/CustomButton';
+import { useUser } from '../contexts/UserContext';
 
 export default function LoginScreen() {
   const [email, setEmail] = useState<string>('');
